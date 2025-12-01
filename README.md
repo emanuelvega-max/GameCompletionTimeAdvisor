@@ -4,9 +4,9 @@ Proyecto final del curso de Programación Estructurada – C++
 Universidad Interamericana de Puerto Rico – 2025  
 
 ## Integrantes del equipo
-- Naesha – Parte 1: Módulo de géneros de videojuegos  
+- Naesha Perez – Parte 1: Módulo de géneros de videojuegos  
 - Emanuel Vega – Parte 2: Manejo de archivos (guardar/cargar), menú principal y organización  
-- Angel – Parte 3: Cálculo de horas estimadas y validaciones  
+- Angel Pastor – Parte 3: Cálculo de horas estimadas y validaciones  
 
 ## ¿De qué trata el programa?
 

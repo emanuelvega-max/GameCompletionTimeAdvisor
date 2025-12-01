@@ -1,35 +1,74 @@
 # Game Completion Time Advisor
 
-Proyecto final de Programación Estructurada en C++.
+Proyecto final del curso de Programación Estructurada – C++  
+Universidad Interamericana de Puerto Rico – 2025  
 
-## Integrantes
-- Naesha – Parte del módulo de géneros.
-- Emanuel Vega – Parte del manejo de archivos (guardar y cargar juegos).
-- Angel – Parte del cálculo del tiempo según el tipo de jugador.
+## Integrantes del equipo
+- Naesha – Parte 1: Módulo de géneros de videojuegos  
+- Emanuel Vega – Parte 2: Manejo de archivos (guardar/cargar), menú principal y organización  
+- Angel – Parte 3: Cálculo de horas estimadas y validaciones  
 
 ## ¿De qué trata el programa?
-El programa sirve para ver una lista de juegos, añadir juegos nuevos, y calcular cuántas horas puede tomar terminar un juego dependiendo del tipo de jugador. También guarda los juegos en un archivo para que no se pierdan cuando cierres el programa.
 
-## Funciones principales
-- Menú de géneros 
-- Guardar y cargar los juegos usando archivos .txt 
-- Calcular horas dependiendo de si el jugador es casual, normal, explorador o completista 
+Este programa permite:
+- Ver diferentes géneros de videojuegos  
+- Mostrar una lista de juegos con sus horas base  
+- Agregar nuevos juegos manualmente  
+- Guardar y cargar juegos usando archivos  
+- Calcular cuántas horas toma completar un juego según el tipo de jugador:
+  - Casual  
+  - Normal  
+  - Explorador  
+  - Completista  
 
-## Librerías usadas
-- iostream
-- string
-- fstream
-- iomanip
+## ¿Qué problema resuelve?
 
-## Cómo se usa
-1. Compilas y corres el archivo `main.cpp`.
-2. Escoges una opción del menú.
-3. Puedes:
-   - Ver los juegos
-   - Agregar uno nuevo
-   - Calcular el tiempo estimado
-   - Ver el promedio de horas
-4. Cuando sales del programa, se guardan los juegos en un archivo.
+Ayuda al usuario a estimar su tiempo de juego dependiendo de cómo le gusta jugar.  
+También permite guardar información de forma persistente usando archivos .txt
 
-## Versión
-Versión 1.0 del proyecto final.
+## Librerías utilizadas
+
+- <iostream> – Entrada y salida de datos  
+- <string> – Manejo de texto  
+- <fstream> – Lectura/escritura de archivos  
+- <iomanip> – Formato de impresión  
+
+## Cómo ejecutar el programa
+
+Compilar:
+
+Ejecutar:
+
+
+## Estructura del proyecto
+
+- **main.cpp** – Contiene todo el código del programa  
+- **juegos_guardados.txt** – Archivo donde se guardan los juegos añadidos  
+
+## Principales funciones del programa
+
+- `moduloGeneros()` – Muestra los géneros y una descripción  
+- `guardarJuegos()` – Guarda los juegos en archivo  
+- `cargarJuegos()` – Carga los juegos del archivo  
+- `calcularHoras()` – Calcula el tiempo estimado según el tipo de jugador  
+- `mostrarJuegos()` – Muestra todos los juegos registrados  
+- `agregarJuego()` – Añade nuevos juegos  
+- `mostrarPromedio()` – Calcula el promedio de horas base  
+
+## Version History
+
+v1.0 – Versión inicial del proyecto  
+v1.1 – Se añadió manejo de archivos  
+v1.2 – Organización del menú principal  
+
+## License
+
+Proyecto creado únicamente para uso académico del curso de C++.  
+No se permite el uso comercial.
+
+## Fuentes de referencia (APA)
+
+OpenAI. (2025). Asistencia para estructura del proyecto. Recuperado de https://chat.openai.com  
+cplusplus.com. (2025). Documentación estándar de C++. Recuperado de https://cplusplus.com  
+en.cppreference.com. (2025). Librerías de C++. Recuperado de https://en.cppreference.com  
+
